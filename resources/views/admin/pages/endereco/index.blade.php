@@ -39,7 +39,7 @@
                     <div class="col-12">
                         {{ $data->text ?? ''}}
                     </div><br>
-                    <a href="{{ route('admin.pages.endereco.edit', $data->id) }}">Editar</a>
+                    <a href="">Editar</a>
                 </div>
 
             </div>

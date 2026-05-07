@@ -71,7 +71,7 @@
                                 <p>Valores</p>
                             </a>
                         </li>
-                       
+
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -96,21 +96,21 @@
                         <p>
                             Noticias
                         </p>
-                 <i class="fas fa-angle-left right"></i> 
+                 <i class="fas fa-angle-left right"></i>
                     </a>
-                </li>--}}
+                </li> --}}
 
-                
-                <li class="nav-item">
+
+                {{-- <li class="nav-item">
                     <a href="{{ route('admin.pages.endereco.index') }}" class="nav-link">
                         <i class="nav-icon fas fa-search"></i>
                         <p>
                             Endereço
                         </p>
-                        {{-- <i class="fas fa-angle-left right"></i> --}}
+                        <i class="fas fa-angle-left right"></i>
 
                     </a>
-                </li>
+                </li> --}}
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
                     <li class="nav-item">

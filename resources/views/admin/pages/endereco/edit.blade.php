@@ -20,9 +20,6 @@
                 </div>
             </div><!-- /.container-fluid -->
         </section>
-
-
-        
         <!-- Main content -->
         <section class="content">
             <div class="container-fluid">
@@ -43,7 +40,7 @@
                             </div>
                             <!-- /.card-header -->
                             <!-- form start -->
-                            <form action="{{ route('admin.pages.endereco.update', $data->id) }}" method="post"
+                            <form action="" method="post"
                                 enctype="multipart/form-data">
                                 @csrf
                                 {{ csrf_field() }}
